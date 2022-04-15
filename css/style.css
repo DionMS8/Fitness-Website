@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
 * {
   font-family: 'Nunito', sans-serif;
   margin: 0;
@@ -29,11 +30,11 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #f00;
+  background: rgb(228, 206, 6);
 }
 
 body {
-  background: #000;
+  background: rgb(0, 0, 0);
 }
 
 section {
@@ -61,7 +62,7 @@ section {
 
 .heading span {
   font-size: 3rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
   background: #000;
   padding: .5rem 1.5rem;
   border: 0.1rem solid #aaa;
@@ -69,14 +70,15 @@ section {
 }
 
 .btn {
-  margin-top: 1rem;
   display: inline-block;
-  padding: 1rem 2.8rem;
-  padding-right: 3rem;
-  background: linear-gradient(130deg, #f00 93%, transparent 90%);
+  background: rgb(228, 206, 6);
   color: #fff;
+  border-radius: 10%;
   cursor: pointer;
   font-size: 1.7rem;
+  margin-top: 1rem;
+  padding: 1rem 2.8rem;
+  padding-right: 3rem;
 }
 
 .btn:hover {
@@ -110,7 +112,7 @@ section {
 }
 
 .header .logo span {
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .header .navbar a {
@@ -121,7 +123,7 @@ section {
 }
 
 .header .navbar a:hover {
-  background: #f00;
+  background: rgb(228, 206, 6);
 }
 
 #menu-btn {
@@ -130,6 +132,8 @@ section {
   cursor: pointer;
   display: none;
 }
+
+
 
 .home {
   padding: 0;
@@ -153,27 +157,27 @@ section {
   width: 60rem;
 }
 
-.home .slide .content span {
+/* .home .slide .content span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
   display: block;
-}
+} */
 
 .home .slide .content h3 {
   font-size: 5rem;
   color: #fff;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .swiper-pagination-bullet {
   height: 2rem;
   width: 2rem;
   background: #fff;
-  border-radius: 0;
+  border-radius: 50;
 }
 
 .swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: #f00;
+  background: rgb(228, 206, 6);
 }
 
 .about {
@@ -199,7 +203,7 @@ section {
   content: '';
   position: absolute;
   z-index: -1;
-  background: #f00;
+  background: rgb(228, 206, 6);
   height: 15rem;
   width: 15rem;
 }
@@ -227,7 +231,7 @@ section {
 
 .about .content span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .about .content .title {
@@ -266,7 +270,7 @@ section {
 
 .about .content .box-container .box h3 i {
   padding-right: 1.5rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .features .box-container {
@@ -324,7 +328,7 @@ section {
 
 .features .box-container .box .content h3 {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .features .box-container .box .content p {
@@ -344,7 +348,7 @@ section {
 
 .pricing .information span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .pricing .information h3 {
@@ -362,7 +366,7 @@ section {
 
 .pricing .information p i {
   padding-right: 1rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .pricing .plan {
@@ -383,7 +387,7 @@ section {
 .pricing .plan .price {
   font-size: 5rem;
   font-weight: bolder;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .pricing .plan .price span {
@@ -404,8 +408,10 @@ section {
 
 .pricing .plan .list p i {
   padding-right: 1rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
+
+
 
 .trainers .box-container {
   display: -ms-grid;
@@ -446,7 +452,7 @@ section {
 
 .trainers .box-container .box .content span {
   font-size: 1.5rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .trainers .box-container .box .content h3 {
@@ -468,8 +474,11 @@ section {
 }
 
 .trainers .box-container .box .content .share a:hover {
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
+
+
+/*=====[BANNER SECTION]========================================================================================================================================================*/
 
 .banner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../images/banner-bg.jpg) no-repeat;
@@ -482,7 +491,7 @@ section {
 
 .banner span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .banner h3 {
@@ -499,6 +508,10 @@ section {
   color: #aaa;
   line-height: 2;
 }
+
+
+
+/*=====[REVIEW SECTION]==============================================================================================*/
 
 .review {
   display: -webkit-box;
@@ -520,7 +533,7 @@ section {
 
 .review .information span {
   font-size: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .review .information h3 {
@@ -578,7 +591,7 @@ section {
 }
 
 .review .review-slider .slide .user span {
-  color: #f00;
+  color: rgb(228, 206, 6);
   font-size: 1.5rem;
 }
 
@@ -586,7 +599,7 @@ section {
   font-size: 5rem;
   margin-left: auto;
   margin-right: 2rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .blogs .slide {
@@ -622,7 +635,7 @@ section {
 }
 
 .blogs .slide .content .link a {
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .blogs .slide .content .link a:hover {
@@ -669,7 +682,7 @@ section {
 }
 
 .footer .box-container .box .links:hover {
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .footer .box-container .box p {
@@ -680,7 +693,7 @@ section {
 
 .footer .box-container .box p i {
   padding-right: .5rem;
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 .footer .box-container .box .share {
@@ -700,7 +713,7 @@ section {
 }
 
 .footer .box-container .box .share a:hover {
-  background: #f00;
+  background: rgb(228, 206, 6);
 }
 
 .footer .box-container .box form .email {
@@ -723,7 +736,7 @@ section {
 }
 
 .credit span {
-  color: #f00;
+  color: rgb(228, 206, 6);
 }
 
 @media (max-width: 991px) {
@@ -798,4 +811,7 @@ section {
     font-size: 50%;
   }
 }
-/*# sourceMappingURL=style.css.map */
+
+
+
+
