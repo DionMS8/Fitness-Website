@@ -11,6 +11,22 @@
 
 A website for a personal gym trainer to communicate and share information such as workout plans, diet plans, session booking schedule, and pricing detailswith their clients.
 
+## Development Objectives
+
+Clients should be able to:
+- Register and Login
+- View and Update their profile.
+- View the trainer's schedule on a clanedar and book a training session by selecting a date and time.
+- Recieve diet plans or tips from the trainer.
+- Receive workout plans.
+- Track their progress.
+
+Personal Trainer should be able to:
+- Customize payment plan information for personal training.
+- Add products and merchandinse with relevant pricing information.
+- Post workout plans (Text, Images, and videos)
+- Post diet information
+
 ## Technologies
 
 - HTML5
