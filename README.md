@@ -1,4 +1,4 @@
-# Beast Fitness Website 💪🏽
+# Radiont Fitness Website 💪🏽
 
 ![image](https://user-images.githubusercontent.com/55777067/163505008-f8840acb-94ed-4342-8d24-eee653174e1d.png)
 
