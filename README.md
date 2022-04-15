@@ -1,4 +1,4 @@
-# Fitness-Website
+# Beast Fitness Website 💪🏽
 
 ![image](https://user-images.githubusercontent.com/55777067/163504554-02bed978-d66f-44e0-89b5-c055668bc3a8.png)
 
