@@ -1,6 +1,6 @@
 # Beast Fitness Website 💪🏽
 
-![image](https://user-images.githubusercontent.com/55777067/163504554-02bed978-d66f-44e0-89b5-c055668bc3a8.png)
+![image](https://user-images.githubusercontent.com/55777067/163505008-f8840acb-94ed-4342-8d24-eee653174e1d.png)
 
 ## Table of contents
 * [General Description](#general-info)
