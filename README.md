@@ -9,7 +9,7 @@
 
 ## General Description
 
-A fitness website for a personal trainer.
+A website for a personal gym trainer to communicate and share information such as workout plans, diet plans, session booking schedule, and pricing detailswith their clients.
 
 ## Technologies
 
