@@ -11,7 +11,7 @@
 
 A website for a personal gym trainer to communicate and share information such as workout plans, diet plans, session booking schedule, and pricing details with their clients.
 
-## Development Objectives
+## System Objectives
 
 Clients should be able to:
 - Register and Login
