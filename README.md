@@ -1,4 +1,4 @@
-# Radiont Fitness Website 💪🏽
+# RaDiont Fitness Website 💪🏽
 
 ## Table of Contents
 * [General Description](#general-info)
