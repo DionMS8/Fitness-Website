@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border:none;
-  text-transform: capitalize;
   transition: all .2s linear;
 }
 
@@ -428,6 +427,10 @@ section{
   }
 }
 
+
+
+/**********[BANNER SECTION]*****************************************************************************************/
+
 .banner{
   background:linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/banner-bg.jpg) no-repeat;
   background-size: cover;
@@ -531,6 +534,9 @@ section{
   }
 }
 
+
+/**********[BLOG SECTION]*****************************************************************************************/
+
 .blogs{
 
   .slide{
@@ -589,6 +595,9 @@ section{
     }
   }
 }
+
+
+/**********[FOOTER SECTION]*****************************************************************************************/
 
 .footer{
 
@@ -675,17 +684,7 @@ section{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-// media queries 
+/**********[MEDIA QUERIES]*****************************************************************************************/
 
 @media (max-width:991px){
 
@@ -771,3 +770,5 @@ section{
   }
 
 }
+
+

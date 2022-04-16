@@ -1,6 +1,7 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
+
 menu.onclick = () =>{
     menu.classList.toggle('fa-times');
     navbar.classList.toggle('active');
@@ -11,6 +12,8 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 };
 
+
+/*****[SWIPER CONFIGURATION]*************************************************************************************** */
 
 var swiper = new Swiper(".home-slider", {
     spaceBetween: 20,
@@ -66,3 +69,7 @@ var swiper = new Swiper(".blogs-slider", {
         },
     },
 });
+
+
+
+
